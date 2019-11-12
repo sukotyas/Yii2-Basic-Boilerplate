@@ -3,7 +3,7 @@
     "description": "Yii 2 Basic Project Template",
     "keywords": ["yii2", "framework", "basic", "project template"],
     "homepage": "http://www.yiiframework.com/",
-    "type": "project",
+    "type": "vcs",
     "license": "BSD-3-Clause",
     "support": {
         "issues": "https://github.com/yiisoft/yii2/issues?state=open",
@@ -15,9 +15,10 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": "~2.0.5",
         "yiisoft/yii2-bootstrap": "~2.0.0",
-        "yiisoft/yii2-swiftmailer": "~2.0.0"
+        "yiisoft/yii2-swiftmailer": "~2.0.0",
+        "hscstudio/yii2-mimin": "^1.1",
+        "yiisoft/yii2": "2.0.29"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
